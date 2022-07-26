@@ -58,4 +58,4 @@ if __name__ == "main":
     flightList = readFlightList("flight.json")
     for item in flightList:
         get90CalendarPrices(item[0],item[1])
-    get90CalendarPrices()
+    
